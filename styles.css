@@ -49,7 +49,7 @@ body {
 
 /* md bootstrap para abajo */
 @media only screen and (max-width: 767px) {
-    #esconderMenosMd {
+    #esconder {
         display: none;
     }
 
@@ -76,4 +76,19 @@ body {
         min-height: 800px;
     }
 
+}
+
+.nav-item{
+    text-align: right;
+}
+
+.nav-item:hover{
+    opacity: 100%;
+}
+
+/* xl bootstrap para abajo */
+@media only screen and (max-width: 1199px) {
+    #esconder {
+        display: none;
+    }
 }
